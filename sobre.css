@@ -1,0 +1,30 @@
+.sobre {
+	background-color: var(--bg-escuro);
+	display: flex;
+	min-height: 383px;
+	margin-bottom: 2rem;
+	padding: 4rem 0;
+}
+
+.sobre__conteudo {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	justify-content: center;
+}
+
+.sobre__titulo {
+	font-size: 2rem;
+	font-style: normal;
+	font-weight: 700;
+}
+
+.sobre__descricao {
+	font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    max-width: 751px;
+
+
+
+}

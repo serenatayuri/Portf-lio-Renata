@@ -1,0 +1,33 @@
+:root {
+    --branco: #FFF;
+    --azul: #2A7AE4;
+    --bg-claro: #F5F5F5;
+    --bg-escuro: #EAF2FD;
+    --bg-btn-verDemo: #2A7AE4;
+
+    --link-repositorio: #2A7AE4;
+    --fonte-padrao: #464646;
+
+    --inputs: #A2A2A2;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: var(--bg-claro);
+    color: var(--fonte-padrao);
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+
+em {
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: 700;
+}
+
+
+
+
+

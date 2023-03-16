@@ -1,0 +1,67 @@
+.skills-hobbies-graduacao {
+	align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.skills {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	margin-bottom: 5.5rem;
+}
+
+.skills__titulo {
+	font-size: 2rem;
+	font-style: normal;	
+	font-weight: 700;
+	text-align: center;
+}
+
+.skills__lista {
+	display: flex;
+	gap: 1rem;
+	flex-wrap: wrap;
+}
+
+
+
+.skills__item--html {
+    background-image: url(./../img/html.png);
+    background-repeat: no-repeat;
+    background-position: top 100px left 15px;
+}
+
+.skills__item--css {
+    background-image: url(./../img/css.png);
+    background-repeat: no-repeat;
+    background-position: top 100px left 15px;
+}
+
+.skills__item--JavaScript {
+    background-image: url(./../img/js.png);
+    background-repeat: no-repeat;
+    background-position: top 100px left 15px;
+}
+
+
+.skills__item {
+    background-color: var(--branco);
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: flex-end;
+    padding: 1rem;
+    width: 176px;
+    height: 174px;
+}
+
+.skill__link {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700
+}
+
+
+

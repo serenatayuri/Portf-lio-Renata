@@ -1,0 +1,35 @@
+.apresentacao {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 2rem;
+	
+}
+
+.apresentacao__conteudo {
+	align-items: flex-start;
+	displey: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+	max-width: 751;
+}
+
+.apresentacao__titulo {
+	font-size: 3.25rem;
+	font-style: normal;
+	font-weight: 700;
+
+}
+
+.apresentacao__subTitulo {
+	font-size: 1.375rem;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.foto-perfil {
+	border-radius: 100%;
+	width: 368px;
+	height: 368px;
+}
+

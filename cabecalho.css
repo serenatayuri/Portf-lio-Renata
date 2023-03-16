@@ -1,0 +1,32 @@
+.cabecalho  {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+
+}
+
+.menu_title {
+    display: flex;
+    gap: 1rem;
+    font-style: normal;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.cabecalho__navegacao {
+    display: flex;
+    gap: 2rem;
+    max-width: 642px;
+
+    
+}
+
+.menu__list__item {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    transition: al o.5s;
+}

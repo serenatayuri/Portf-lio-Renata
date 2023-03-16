@@ -1,0 +1,51 @@
+.hobbies {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 5.5rem;
+}
+
+.hobbies__titulo {
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+}
+
+.hobbies__lista {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.hobbies__item--tocarViolao {
+    background-image: url(./../img/violao.png);
+    background-repeat: no-repeat;
+    background-position: top 100px left 15px;
+}
+
+.hobbies__item--musica {
+    background-image: url(./../img/musica.png);
+    background-repeat: no-repeat;
+    background-position: top 100px left 15px;
+}
+
+.hobbies__item--fotografar {
+    background-image: url(./../img/fotografia.png);
+    background-repeat: no-repeat;
+    background-position: top 100px left 15px;
+}
+
+
+.hobbies__item {
+    background-color: var(--branco);
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: flex-end;
+    padding: 1rem;
+    width: 176px;
+    height: 174px;
+
+}

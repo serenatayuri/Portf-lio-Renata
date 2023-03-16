@@ -1,0 +1,119 @@
+.rodape {
+    background-color: var(--bg-escuro);
+    display: flex;
+    flex-direction: column;
+}
+
+.rodape__contato {
+    display: flex;
+    gap: 0.625rem;
+    justify-content: center;
+    padding: 4rem;
+}
+
+.rodape__contato--grupo {
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    padding: 4rem 0 0;
+}
+
+.img {
+    max-inline-size: 100%;
+    max-block-size: 100%;
+}
+
+.campo__formulario {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+}
+
+.campo__formulario--texto {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+.campo__texto--titulo {
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.campo__texto--aviso {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.formulario {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+}
+
+#name, #email, #assunto {
+    height: 3.5rem;
+}
+
+input, #mensagem {
+    align-self: stretch;
+    background-color: var(--branco);
+    border-radius: 0.25rem;
+    flex-grow: 0;
+    padding: 1rem 0 1rem 0.75rem;
+}
+
+input, #mensagem {
+    align-self: stretch;
+    background-color: var(--branco);
+    border-radius: 0.25rem;
+    flex-grow: 0;
+    padding: 1rem 0 1rem 0.75rem;
+}
+
+input, #mensagem {
+    align-self: stretch;
+    background-color: var(--branco);
+    border-radius: 0.25rem;
+    flex-grow: 0;
+    padding: 1rem 0 1rem 0.75rem;
+}
+
+input, #mensagem {
+    align-self: stretch;
+    background-color: var(--branco);
+    border-radius: 0.25rem;
+    flex-grow: 0;
+    padding: 1rem 0 1rem 0.75rem;
+}
+
+#botao--enviar {
+    background-color: var(--azul);
+    border-radius: 0.25rem;
+    color: var(--branco);
+    cursor: pointer;
+    height: 51px;
+    padding: 1rem;
+    width: 165px;
+}
+
+.rodape__pagina {
+    align-items: center;
+    background-color: var(--branco);
+    display: flex;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    gap: 0.625rem;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+}
